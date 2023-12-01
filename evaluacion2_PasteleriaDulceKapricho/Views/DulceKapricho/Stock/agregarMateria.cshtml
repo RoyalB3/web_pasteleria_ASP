@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewData["Title"] = "agregarMateria";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/login2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dulce Kapricho</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div>
+                <h1 class="header__logo">Dulce Kapricho </h1>
+            </div>
+            <ul class="header__list-items">
+                <li class="header__element-item"><a href="/DulceKapricho/PortalAdministrador">Portal Administrador</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/VerProductos">Productos</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/Despacho">Despacho</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/Stock">Stock</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/Gestion">Gestion</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/Proveedores">Proveedores</a></li>
+            </ul>
+            <div>
+                <a href="https://www.instagram.com/" class="header__redes"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/?locale=es_LA" class="header__redes"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.tiktok.com/foryou" class="header__redes"><i class='bx bxl-tiktok'></i></a>
+            </div>
+            <div class="sesion"><a href="/Login/Cerrar">Cerrar sesión</a></div>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <form class="formulario" action="/Procedimientos/CrearMateria" method="post">
+            <h1 class="titulo">Registrar Nueva Materia Prima</h1>
+            <input class="formulario__campo" type="text" name="rut" placeholder="Rut-Proveedor" required maxlength="11" />
+            <input class="formulario__campo" type="text" name="nombre" placeholder="Nombre-Material" required/>
+            <input class="formulario__campo" type="number" name="cantidad" placeholder="cantidad-a-ingresar" required />
+            <button type="submit" class="formulario__btn">Registar</button>
+            @ViewBag.mensaje
+        </form>
+        <form class="formulario" action="/Procedimientos/AgregarStock" method="post">
+            <h1 class="titulo">Agregar Stock Materia Prima</h1>
+            <input class="formulario__campo" type="text" name="id" placeholder="id" required />           
+            <input class="formulario__campo" type="number" name="cantidad" placeholder="cantidad" maxlength="16" required />
+            <button type="submit" class="formulario__btn">Cargar</button>
+            @ViewBag.mensaje
+        </form>
+        <form class="formulario" action="/Procedimientos/BorrarMateria" method="post">
+            <h1 class="titulo">Borrar materia prima por ID</h1>
+            <input type="text" placeholder="Id-Materia" id="idMateria" name="id" required>
+            <input type="submit" value="Borrar Materia">
+        </form>
+        </section>
+        <section>
+            <table>
+                <thead class="header-table">
+                    <tr>
+                        <th>ID Materia</th>
+                        <th>Proveedor</th>
+                        <th>Cantidad</th>
+                        <th>Fecha</th>
+                        <th>Material</th>
+                    </tr>
+                </thead>
+                <tbody class="body-table">
+                    @Html.Raw(ViewBag.htmlMateriaPrima)
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
+

@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewData["Title"] = "despacho";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/despacho.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dulce Kapricho</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div>
+                <a href="/Home/Index"><h1 class="header__logo">Dulce Kapricho </h1></a>
+            </div>
+            <ul class="header__list-items">
+                <li><a class="header__element-item" href="/DulceKapricho/PortalTrabajador">Portal Trabajador</a></li>
+                <li><a class="header__element-item" href="/DulceKapricho/VerProductos">Productos</a></li>
+                <li><a class="header__element-item" href="/DulceKapricho/Despacho">Despacho</a></li>
+                <li><a class="header__element-item" href="/DulceKapricho/Stock">Stock</a></li>
+            </ul>
+            <div>
+                <a href="https://www.instagram.com/" class="header__redes"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/?locale=es_LA" class="header__redes"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.tiktok.com/foryou" class="header__redes"><i class='bx bxl-tiktok'></i></a>
+            </div>
+            <div class="sesion"><a href="/Login/Cerrar">Cerrar sesión</a></div>
+        </nav>
+    </header>
+    <main>
+        <div class="notificaciones">
+                <div class="pedidos">
+                    <header>
+                        <h1>Por Despachar</h1>
+                    </header>
+                    <table class="pedidos-detalle">
+                        <tr><td>Producto:</td><td>Cantidad:</td><td>Direccion:</td><td>Cliente:</td><td>Fecha:</td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                    </table>
+                    <button type="submit">Despachar</button>
+                </div>
+            </div>
+    </main>
+</body>
+</html>

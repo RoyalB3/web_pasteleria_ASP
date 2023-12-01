@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "Admin";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dulce Kapricho</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div>
+                <h1 class="header__logo">Dulce Kapricho </h1>
+            </div>
+            <ul class="header__list-items">
+                <li><a class="header__element-item" href="/Home/Index">Inicio</a></li>
+            </ul>
+            <div>
+                <a href="https://www.instagram.com/" class="header__redes"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/?locale=es_LA" class="header__redes"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.tiktok.com/foryou" class="header__redes"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form class="formulario" action="/Login/LoginAdmin" method="post">
+            <h1 class="titulo">Administrador</h1>
+            <input class="formulario__campo" type="text" name="rut" placeholder="Rut" required />
+            <input class="formulario__campo" type="password" name="clave" placeholder="contraseña" required />
+            <button type="submit" class="formulario__btn">Login</button>
+        </form>
+    </main>
+</body>
+</html> 
+

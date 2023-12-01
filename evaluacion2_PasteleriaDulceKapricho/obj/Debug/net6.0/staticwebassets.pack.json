@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Eva2_RichardS-SebastianM.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Eva2_RichardS-SebastianM.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\carrito.css",
+      "PackagePath": "staticwebassets\\css\\carrito.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\crearProducto.css",
+      "PackagePath": "staticwebassets\\css\\crearProducto.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\crearProductos.css",
+      "PackagePath": "staticwebassets\\css\\crearProductos.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\despacho.css",
+      "PackagePath": "staticwebassets\\css\\despacho.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\formAdmin.css",
+      "PackagePath": "staticwebassets\\css\\formAdmin.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\login2.css",
+      "PackagePath": "staticwebassets\\css\\login2.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\pAdmin.css",
+      "PackagePath": "staticwebassets\\css\\pAdmin.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\pVendedor.css",
+      "PackagePath": "staticwebassets\\css\\pVendedor.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\portales.css",
+      "PackagePath": "staticwebassets\\css\\portales.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\productos.css",
+      "PackagePath": "staticwebassets\\css\\productos.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\stock.css",
+      "PackagePath": "staticwebassets\\css\\stock.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\Productos\\Galletas.jpg",
+      "PackagePath": "staticwebassets\\img\\Productos\\Galletas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\Productos\\oreo-cheesecake-entero.jpg",
+      "PackagePath": "staticwebassets\\img\\Productos\\oreo-cheesecake-entero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\Productos\\oreo-cheesecake.jpg",
+      "PackagePath": "staticwebassets\\img\\Productos\\oreo-cheesecake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\Productos\\pie-de-limon-entero.webp",
+      "PackagePath": "staticwebassets\\img\\Productos\\pie-de-limon-entero.webp"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\Productos\\pie-de-limon.jpg",
+      "PackagePath": "staticwebassets\\img\\Productos\\pie-de-limon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\fondo-crear-producto.jpg",
+      "PackagePath": "staticwebassets\\img\\fondo-crear-producto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\fondo-despacho.jpg",
+      "PackagePath": "staticwebassets\\img\\fondo-despacho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\fondo-login.jpg",
+      "PackagePath": "staticwebassets\\img\\fondo-login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\fondo-portal-trabajador.jpg",
+      "PackagePath": "staticwebassets\\img\\fondo-portal-trabajador.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\header.webp",
+      "PackagePath": "staticwebassets\\img\\header.webp"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\portalAdministrador.jpg",
+      "PackagePath": "staticwebassets\\img\\portalAdministrador.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\portalCliente.jpg",
+      "PackagePath": "staticwebassets\\img\\portalCliente.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\portalTrabajador.jpg",
+      "PackagePath": "staticwebassets\\img\\portalTrabajador.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\stock\\azucar.jpg",
+      "PackagePath": "staticwebassets\\img\\stock\\azucar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\stock\\chips.jpg",
+      "PackagePath": "staticwebassets\\img\\stock\\chips.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\stock\\harina.jpg",
+      "PackagePath": "staticwebassets\\img\\stock\\harina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\stock\\huevos.jpg",
+      "PackagePath": "staticwebassets\\img\\stock\\huevos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\img\\stock\\polvo-hornear.webp",
+      "PackagePath": "staticwebassets\\img\\stock\\polvo-hornear.webp"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\js\\carrito.js",
+      "PackagePath": "staticwebassets\\js\\carrito.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\js\\jquery-3.7.1.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.7.1.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Richart\\Downloads\\evaluacion2_PasteleriaDulceKapricho\\evaluacion2_PasteleriaDulceKapricho\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Eva2_RichardS-SebastianM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Eva2_RichardS-SebastianM.props",
+      "PackagePath": "build\\Eva2_RichardS-SebastianM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Eva2_RichardS-SebastianM.props",
+      "PackagePath": "buildMultiTargeting\\Eva2_RichardS-SebastianM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Eva2_RichardS-SebastianM.props",
+      "PackagePath": "buildTransitive\\Eva2_RichardS-SebastianM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

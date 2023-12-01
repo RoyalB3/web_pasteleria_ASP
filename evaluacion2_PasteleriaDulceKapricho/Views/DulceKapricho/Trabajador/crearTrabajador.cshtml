@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewData["Title"] = "ntrabajador";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dulce Kapricho</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div>
+                <h1 class="header__logo">Dulce Kapricho </h1>
+            </div>
+            <ul class="header__list-items">
+                <li><a class="header__element-item" href="#">Inicio</a></li>
+                <li><a class="header__element-item" href="/DulceKapricho/VerProductos">Productos</a></li>
+            </ul>
+            <div>
+                <a href="https://www.instagram.com/" class="header__redes"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/?locale=es_LA" class="header__redes"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.tiktok.com/foryou" class="header__redes"><i class='bx bxl-tiktok'></i></a>
+            </div>
+            <div class="sesion"><a href="/Login/Cerrar">Cerrar sesión</a></div>
+        </nav>
+    </header>
+    <main>
+        <form class="formulario" action="/DulceKapricho/CrearPersona" method="post">
+            <h1 class="titulo">Registrar Nuevo Trabajador</h1>
+            <input class="formulario__campo" type="text" name="rut" placeholder="Rut" required maxlength="11" />
+            <input class="formulario__campo" type="text" name="nombre" placeholder="Nombre" required/>
+            <input class="formulario__campo" type="text" name="apellido" placeholder="Apellido" required/>           
+            <input class="formulario__campo" type="email" name="mail" placeholder="Correo" required/>
+            <input class="formulario__campo" type="password" name="clave" placeholder="contraseña" maxlength="15" required/>
+            <input class="formulario__campo" type="date" name="f_nacimiento" required />
+            <input class="formulario__campo" type="text" name="direccion" placeholder="Direccion" required/>
+            <input class="formulario__campo" type="text" name="telefono" placeholder="Telefono" required/>
+            <select class="formulario__campo" name="nivel" required>
+                <option value="2">Trabajador</option>
+            </select>
+            <button type="submit" class="formulario__btn">Registar</button>
+            @ViewBag.mensaje
+        </form>
+    </main>
+    <a href="/DulceKapricho/Gestion">Borrar usuarios</a>
+</body>
+</html>
+

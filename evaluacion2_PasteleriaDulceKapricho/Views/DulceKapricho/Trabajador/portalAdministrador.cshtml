@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewData["Title"] = "portalAdministrador";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/pAdmin.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dulce Kapricho</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="/Home/Index"><h1>Dulce Kapricho </h1></a>
+                </div>
+                <ul class="list-items">
+                    <li class="element-item"><a href="/DulceKapricho/PortalAdministrador">Portal Administrador</a></li>
+                    <li class="element-item"><a href="/DulceKapricho/VerProductos">Productos</a></li>
+                    <li class="element-item"><a href="/DulceKapricho/Despacho">Despacho</a></li>
+                    <li class="element-item"><a href="/DulceKapricho/Stock">Stock</a></li>
+                    <li class="element-item"><a href="/DulceKapricho/Gestion">Gestion</a></li>
+                    <li class="element-item"><a href="/DulceKapricho/Proveedores">Proveedores</a></li>
+                    <li class="element-item"><a href="/DulceKapricho/Compras">Compras</a></li>
+                    <li class="element-item"><a href="/DulceKapricho/Delivery">Delivery</a></li>
+                </ul>
+                <div class="redes">
+                    <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.facebook.com/?locale=es_LA"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.tiktok.com/foryou"><i class='bx bxl-tiktok'></i></a>
+                </div>
+                <div class="sesion"><a href="/Login/Cerrar">Cerrar sesión</a></div>
+            </nav>
+        </header>
+        <main>
+            <div class="notificaciones">
+                <div class="pedidos">
+                    <header>
+                        <h1>Pedidos Pendientes</h1>
+                    </header>
+                    <table class="pedidos-detalle">
+                        <tr><td>Tipo:</td><td>Cantidad:</td><td>Direccion:</td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                    </table>
+                    <button type="submit">Enviar a despacho</button>
+                </div>
+            </div>
+            <div class="notificaciones">
+                <div class="pedidos">
+                    <header>
+                        <h1>Por Despachar</h1>
+                    </header>
+                    <table class="pedidos-detalle">
+                        <tr><td>Tipo:</td><td>Cantidad:</td><td>Direccion:</td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                    </table>
+                    <button type="submit">Despachar</button>
+                </div>
+            </div>
+            <div class="notificaciones">
+                <div class="pedidos">
+                    <header>
+                        <h1>Producto Por Preparar</h1>
+                    </header>
+                    <table class="pedidos-detalle">
+                        <tr><td>Tipo:</td><td>Cantidad:</td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                    </table>
+                    <button type="submit" action="/DulceKapricho/Stock">Preparar</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
+

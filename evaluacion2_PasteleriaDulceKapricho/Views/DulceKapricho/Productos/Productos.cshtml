@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewData["Title"] = "Productos";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/productos.css" />
+    <script src="/js/jquery-3.7.1.js"></script>
+    <script src="/js/script.js"></script>
+    <title>Productos</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <h1>Dulce Kapricho</h1>
+                </div>
+                <ul class="list-items">
+                    <li class="element-item"><a href="/Home/Index">Inicio</a></li>
+                    <li class="element-item"><a href="#">Productos</a></li>
+                </ul>
+
+                <div class="redes">
+                    <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.facebook.com/?locale=es_LA"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.tiktok.com/foryou"><i class='bx bxl-tiktok'></i></a>
+                </div>
+                <<div class="sesion"><a href="/Login/Cerrar">Cerrar sesión</a></div>
+            </nav>
+        </header>
+        <main>
+            <div class="wrap">
+                <h1>Productos</h1>
+                <div class="store-wraper">
+                    <div class="category-list">
+                        <h3>Filtra por categoría</h3>
+                        <a href="#" class="category-item" category="all">Todo</a>
+                        <a href="#" class="category-item" category="trozo">Porcion</a>
+                        <a href="#" class="category-item" category="Completa">Pastel</a>
+                        <a href="#" class="category-item" category="galletas">Galletas</a>
+                        <a href="/DulceKapricho/CrearProducto" class="category-item" category="Crear">Manejar Productos</a>
+                    </div>
+                    <section class="product-list">
+                        <div class="product-item" category="trozo">
+                            <!--Producto 1-->
+                            <p class="encabezado-nuevo">Nuevo</p>
+                            <img src="/img/productos/oreo-cheesecake.jpg" alt="">
+                            <p class="tipo">Porcion</p>
+                            <header class="product-text">
+                                <h3>Porcion Cheesecake Oreo</h3>
+                                <hr size="0.5px" color="#c7c7c7"/>
+                                <p>Pastel de queso</p>
+                                <p>Oreo</p>
+                                <p>Precio: 3.500$</p>
+                            </header>
+                            <footer>
+                                <button class="agregar-carrito btn-3" data-id="1">Agregar al carro</button>
+                            </footer>
+                        </div>
+                        <div class="product-item" category="completa">
+                            <!--Producto 2-->
+                            <p class="encabezado">Mas solicitado</p>
+                            <img src="/img/productos/oreo-cheesecake-entero.jpg" alt="">
+                            <p class="tipo">Pastel entero</p>
+                            <header class="product-text">
+                                <h3>Cheesecake oreo entero</h3>
+                                <hr size="0.5px" color="#c7c7c7" />
+                                <p>Pastel de queso</p>
+                                <p>8 piezas totales</p>
+                                <p>Precio: 25.000$</p>
+                            </header>
+                            <footer>
+                                <button class="ver-detalle btn-3" data-id="2">Agregar al carro</button>
+                            </footer>
+                        </div>
+                        <div class="product-item" category="trozo">
+                            <!--Producto 3-->
+                            <p class="encabezado">Mas solicitado</p>
+                            <img src="/img/productos/pie-de-limon.jpg" alt="">
+                            <p class="tipo">Porcion</p>
+                            <header class="product-text">
+                                <h3>Porcion Pie de Limon</h3>
+                                <hr size="0.5px" color="#c7c7c7" />
+                                <p>1 un</p>
+                                <p>Glaseado</p>
+                                <p>Precio: 2.500$</p>
+                            </header>
+                            <footer>
+                                <button class="ver-detalle btn-3" data-id="3">Agregar al carro</button>
+                            </footer>
+                        </div>
+                        <div class="product-item" category="completa">
+                            <!--Producto 4-->
+                            <p class="encabezado">Mas solicitado</p>
+                            <img src="/img/productos/pie-de-limon-entero.webp" alt="">
+                            <p class="tipo">Pastel entero</p>
+                            <header class="product-text">
+                                <h3>Pie de Limon Entero</h3>
+                                <hr size="0.5px" color="#c7c7c7" />
+                                <p>Pie con leche condesada</p>
+                                <p>8 piezas</p>
+                                <p>Precio: 18.000$</p>
+                            </header>
+                            <footer>
+                                <button class="ver-detalle btn-3" data-id="4">Agregar al carro</button>
+                            </footer>
+                        </div>
+                        <div class="product-item" category="galletas">
+                            <!--Producto 5-->
+                            <p class="encabezado-popular">Popular</p>
+                            <img src="/img/productos/Galletas.jpg" alt="">
+                            <p class="tipo">Snacks</p>
+                            <header class="product-text">
+                                <h3>8x Pack Chips Chocolate</h3>
+                                <hr size="0.5px" color="#c7c7c7" />
+                                <p>Galletas con chocolate</p>
+                                <p>Paquete de 8</p>
+                                <p>Precio: 5.000$</p>
+                            </header>
+                            <footer>
+                                <button class="ver-detalle btn-3" data-id="5">Agregar al carro</button>
+                            </footer>
+                        </div>
+                    </section>
+                    </div>
+                </div>
+        </main>
+    </div>
+</body>
+</html>
+

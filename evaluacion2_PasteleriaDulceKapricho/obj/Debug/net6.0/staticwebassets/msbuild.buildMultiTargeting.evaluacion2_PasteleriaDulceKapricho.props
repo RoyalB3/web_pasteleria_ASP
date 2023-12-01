@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\evaluacion2_PasteleriaDulceKapricho.props" />
+</Project>

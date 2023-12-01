@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Dulce Kapricho";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dulce Kapricho</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <h1>Dulce Kapricho </h1>
+                </div>
+                <ul class="list-items">
+                    <li class="element-item"><a href="#">Inicio</a></li>
+                    <li class="element-item"><a href="/DulceKapricho/VerProductos">Productos</a></li>
+                </ul>
+
+                <div class="redes">
+                    <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.facebook.com/?locale=es_LA"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.tiktok.com/foryou"><i class='bx bxl-tiktok'></i></a>
+                </div>
+                <div class="sesion"><a href="/DulceKapricho/Portales">Iniciar sesión</a></div>
+            </nav>
+        </header>
+        <main>
+            <h1>Nuestros productos</h1>
+            <div class="imagenes">             
+                <div class="carta">
+                    <p>CheesaCake Oreo</p>
+                    <a href="/DulceKapricho/VerProductos">
+                        <img src="/img/Productos/oreo-cheesecake-entero.jpg" href="/DulceKapricho/VerProductos"/>
+                    </a>
+                </div>
+                <div class="carta">
+                    <p>Piede Limon</p>
+                    <a href="/DulceKapricho/VerProductos">
+                        <img src="/img/Productos/pie-de-limon-entero.webp" href="/DulceKapricho/VerProductos"/>
+                    </a>
+                </div>
+                <div class="carta">
+                    <p>Galletas</p>
+                    <a href="/DulceKapricho/VerProductos">
+                        <img src="/img/Productos/Galletas.jpg"/>
+                    </a>
+                </div>
+            </div>
+            <a class="boton" href="/DulceKapricho/VerProductos">Comprar</a>
+        </main>
+    </div>
+</body>
+</html>

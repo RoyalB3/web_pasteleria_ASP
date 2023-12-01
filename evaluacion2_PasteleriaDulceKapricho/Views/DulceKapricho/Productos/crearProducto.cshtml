@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewData["Title"] = "crearProducto";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/crearProductos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dulce Kapricho</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div>
+                <h1 class="header__logo">Dulce Kapricho </h1>
+            </div>
+            <ul class="header__list-items">
+                <li><a class="header__element-item" href="/Home/Index">Inicio</a></li>
+                <li><a class="header__element-item" href="/DulceKapricho/PortalTrabajador">Portal Trabajador</a></li>
+                <li><a class="header__element-item" href="/DulceKapricho/VerProductos">Productos</a></li>
+            </ul>
+            <div>
+                <a href="https://www.instagram.com/" class="header__redes"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/?locale=es_LA" class="header__redes"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.tiktok.com/foryou" class="header__redes"><i class='bx bxl-tiktok'></i></a>
+            </div>
+            <div class="sesion"><a href="/Login/Cerrar">Cerrar sesión</a></div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form class="formulario" action="/Productos/CrearProducto" method="post">
+                <h1 class="titulo">Crear Nuevo Producto</h1>
+                <input class="formulario__campo" type="text" name="nombreProducto" placeholder="Nombre del Producto" required />
+                <input class="formulario__campo" type="number" name="idMateria" placeholder="ID de Materia" required />
+                <input class="formulario__campo" type="text" name="categoria" placeholder="Categoría" required />
+                <input class="formulario__campo" type="number" name="stock" placeholder="Stock" required />
+                <input class="formulario__campo" type="number" name="costo" placeholder="Costo" required />
+                <input class="formulario__campo" type="number" name="precio" placeholder="Precio" required />
+                <button type="submit" class="formulario__btn">Registrar</button>
+                @ViewBag.mensaje
+            </form>
+            <form class="formulario" action="/Productos/AumentarStock" method="post">
+                <h1 class="titulo">Aumentar Stock de Producto</h1>
+                <input class="formulario__campo" type="number" name="idProducto" placeholder="ID del Producto" required />
+                <input class="formulario__campo" type="number" name="cantidad" placeholder="Cantidad a aumentar" required />
+                <button type="submit" class="formulario__btn">Agregar</button>
+                @ViewBag.mensaje
+            </form>
+            <form class="formulario" action="/Productos/EliminarProducto" method="post">
+                <h1 class="titulo">Eliminar Producto</h1>
+                <input class="formulario__campo" type="number" name="idProducto" placeholder="ID del Producto" required />
+                <button type="submit" class="formulario__btn">Eliminar</button>
+                @ViewBag.mensaje
+            </form>
+        </section>
+        <section>
+            <table>
+                <thead class="header-table">
+                    <tr>
+                        <th>ID Producto</th>
+                        <th>Nombre Producto</th>
+                        <th>ID Materia</th>
+                        <th>Categoría</th>
+                        <th>Stock</th>
+                        <th>Costo</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody class="body-table">
+                    @Html.Raw(ViewBag.htmlProductos)
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "Carrito";
+    Layout = null;
+}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrito.css">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <form method="post" action="/Pedido/CrearPedido">
+        <label for="rutCliente">Rut del Cliente:</label>
+        <input type="text" id="rutCliente" name="rutCliente" required />
+        <label for="fechaPedido">Fecha del Pedido:</label>
+        <input type="date" id="fechaPedido" name="fechaPedido" required />
+        <label for="totalPrecio">Total del Precio:</label>
+        <input type="number" id="totalPrecio" name="totalPrecio" required />
+        <label for="tipoEntrega">Tipo de Entrega:</label>
+        <input type="text" id="tipoEntrega" name="tipoEntrega" required />
+        <label for="idDelivery">ID del Delivery:</label>
+        <input type="number" id="idDelivery" name="idDelivery" required />
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" required />
+        <label for="idProducto">ID del Producto:</label>
+        <input type="number" id="idProducto" name="idProducto" required />
+        <button type="submit">Crear Pedido</button>
+    </form>
+
+    @if (ViewBag.pedido != null)
+    {
+        <h2>Detalles del Pedido</h2>
+        <p>ID Pedido: @ViewBag.pedido.ID_PEDIDO</p>
+        <p>Rut Cliente: @ViewBag.pedido.RUT_CLIENTE</p>
+    }
+        @ViewBag.mensaje
+</body>
+</html>
+

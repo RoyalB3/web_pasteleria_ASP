@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "compras";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/formAdmin.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dulce Kapricho</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div>
+                <h1 class="header__logo">Dulce Kapricho </h1>
+            </div>
+            <ul class="header__list-items">
+                <li class="header__element-item"><a href="/DulceKapricho/PortalAdministrador">Portal Administrador</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/VerProductos">Productos</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/Despacho">Despacho</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/Stock">Stock</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/Gestion">Gestion</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/Proveedores">Proveedores</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/Compras">Compras</a></li>
+                <li class="header__element-item"><a href="/DulceKapricho/Delivery">Delivery</a></li>
+            </ul>
+            <div>
+                <a href="https://www.instagram.com/" class="header__redes"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/?locale=es_LA" class="header__redes"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.tiktok.com/foryou" class="header__redes"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </nav>
+        <div class="sesion"><a href="/Login/Cerrar">Cerrar sesión</a></div>
+    </header>
+    <main>
+        <section>
+            <form class="formulario" action="/Compras/EliminarCompra" method="post">
+                <h1 class="titulo">Eliminar compra</h1>
+                <label for="idCompra">ID de Compra a Eliminar:</label>
+                <input class="formulario__campo" type="number" id="idCompra" name="idCompra" required>
+                <button class="formulario__btn" type="submit">Eliminar</button>
+                @ViewBag.mensaje
+            </form>
+            <form class="formulario" action="/Compras/CrearCompra" method="post">
+                <h1 class="titulo">Registrar compra</h1>
+                <input class="formulario__campo" type="text" name="rutProveedor" placeholder="Rut del Proveedor" required maxlength="11">
+                <input class="formulario__campo" type="number" name="idMateria" placeholder="ID de la Materia" required>
+                <input class="formulario__campo" type="number" name="cantidad" placeholder="Cantidad" required>
+                <input class="formulario__campo" type="number" name="precio" placeholder="Precio" required>
+                <input class="formulario__campo" type="date" name="fechaCompra" placeholder="Fecha de Compra" required>
+                <button class="formulario__btn" type="submit">Agregar</button>
+                @ViewBag.mensaje
+            </form>
+            <form class="formulario" action="/DulceKapricho/EditarPersona" method="post">
+                <h1 class="titulo">Editar Datos de Persona</h1>
+                <input class="formulario__campo" type="text" name="rut" placeholder="Rut" required maxlength="11" />
+                <input class="formulario__campo" type="email" name="mail" placeholder="Correo" required />
+                <input class="formulario__campo" type="text" name="direccion" placeholder="Dirección" required />
+                <input class="formulario__campo" type="tel" name="telefono" placeholder="Teléfono" required />
+                <input class="formulario__campo" type="number" name="nivel" placeholder="Nivel" required />
+                <button type="submit" class="formulario__btn">Guardar</button>
+                @ViewBag.mensaje
+            </form>
+        </section>
+        <section>
+            <h1>Compras</h1>
+            <table border="1">
+                <thead class="header-table">
+                    <tr>
+                        <th>ID Compra</th>
+                        <th>RUT Proveedor</th>
+                        <th>ID Materia</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <th>Fecha de Compra</th>
+                    </tr>
+                </thead>
+                <tbody class="body-table">
+                    @Html.Raw(ViewBag.htmlCompras)
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+</body>
+</html>
+

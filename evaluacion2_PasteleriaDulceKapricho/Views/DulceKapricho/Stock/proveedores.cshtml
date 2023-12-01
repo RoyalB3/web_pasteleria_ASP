@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewData["Title"] = "proveedores";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/login2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dulce Kapricho</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div>
+                <h1 class="header__logo">Dulce Kapricho </h1>
+            </div>
+            <ul class="header__list-items">
+                <li class="element-item"><a href="/DulceKapricho/PortalAdministrador">Portal Administrador</a></li>
+                <li class="element-item"><a href="/DulceKapricho/VerProductos">Productos</a></li>
+                <li class="element-item"><a href="/DulceKapricho/Despacho">Despacho</a></li>
+                <li class="element-item"><a href="/DulceKapricho/Stock">Stock</a></li>
+                <li class="element-item"><a href="/DulceKapricho/Gestion">Gestion</a></li>
+                <li class="element-item"><a href="/DulceKapricho/Proveedores">Proveedores</a></li>
+            </ul>
+            <div>
+                <a href="https://www.instagram.com/" class="header__redes"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/?locale=es_LA" class="header__redes"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.tiktok.com/foryou" class="header__redes"><i class='bx bxl-tiktok'></i></a>
+            </div>
+            <div class="sesion"><a href="/Login/Cerrar">Cerrar sesión</a></div>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <form class="formulario" action="/Procedimientos/CrearProveedor" method="post">
+            <h1 class="titulo">Registrar Nuevo Proveedor</h1>
+            <input class="formulario__campo" type="text" id="rutProveedor" name="rutProveedor" placeholder="Rut-Proveedor" required maxlength="11" />            <input class="formulario__campo" type="text" name="nombre" placeholder="Nombre-Material" required />
+            <input class="formulario__campo" type="text" id="nombreProveedor" name="nombreProveedor" placeholder="Nombre del proveedor" required />
+            <input class="formulario__campo" type="email" id="correoProveedor" name="correoProveedor" placeholder="Correo del proveedor" required />
+            <input class="formulario__campo" type="tel" id="telefonoProveedor" name="telefonoProveedor" placeholder="Teléfono del proveedor" required />
+            <button type="submit" class="formulario__btn">Registar</button>
+            @ViewBag.mensaje
+        </form>
+        <form class="formulario" action="/Procedimientos/BorrarProveedor" method="post">
+                <h1 class="titulo">Ingrese RUT del Proveedor a Borrar:</h1>               
+                <input type="text" id="rutProveedor" name="Rut" required>
+                <input type="submit" value="Borrar Proveedor">
+                @ViewBag.Mensaje
+        </form>
+        <form class="formulario" action="/Procedimientos/ActualizarProveedor" method="post">
+                <h1 class="titulo"> Actulizar datos de proveedor</h1>
+                <input type="text" id="rutProveedor" placeholder="Rut del proveedor" name="rut" required>
+                <input type="text" id="nuevoCorreo" placeholder="nuevo correo" name="nuevoCorreo" required>
+                <input type="text" id="nuevoTelefono" placeholder="nuevo telefono" name="nuevoTelefono" required>
+                <input type="submit" value="Actualizar">
+        </form>
+        </section>
+        <section>
+            <h1 class="titulo">Proveedores</h1>
+            <table border="1">
+                <thead class="header-table">
+                    <tr>
+                        <th>RUT-PROVEEDOR</th>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Telefono</th>
+                    </tr>
+                </thead>
+                <tbody class="body-table">
+                    @Html.Raw(ViewBag.htmlPersona)
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
+

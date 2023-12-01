@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Eva2_RichardS-SebastianM
+build_property.RootNamespace = Eva2_RichardS-SebastianM
+build_property.ProjectDir = C:\Users\Richart\Downloads\evaluacion2_PasteleriaDulceKapricho\evaluacion2_PasteleriaDulceKapricho\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Richart\Downloads\evaluacion2_PasteleriaDulceKapricho\evaluacion2_PasteleriaDulceKapricho
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Administrador/compras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xBZG1pbmlzdHJhZG9yXGNvbXByYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Administrador/delivery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xBZG1pbmlzdHJhZG9yXGRlbGl2ZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Administrador/deliveryForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xBZG1pbmlzdHJhZG9yXGRlbGl2ZXJ5Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Administrador/gestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xBZG1pbmlzdHJhZG9yXGdlc3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Clientes/contacto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xDbGllbnRlc1xjb250YWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Clientes/LoginCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xDbGllbnRlc1xMb2dpbkNsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Clientes/portalClientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xDbGllbnRlc1xwb3J0YWxDbGllbnRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Clientes/registrarCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xDbGllbnRlc1xyZWdpc3RyYXJDbGllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Despacho/despacho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xEZXNwYWNob1xkZXNwYWNoby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/portales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xwb3J0YWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Productos/Carrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xQcm9kdWN0b3NcQ2Fycml0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Productos/crearProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xQcm9kdWN0b3NcY3JlYXJQcm9kdWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Productos/Productos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xQcm9kdWN0b3NcUHJvZHVjdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Stock/agregarMateria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xTdG9ja1xhZ3JlZ2FyTWF0ZXJpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Stock/portalStock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xTdG9ja1xwb3J0YWxTdG9jay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Stock/portalStockTrabajador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xTdG9ja1xwb3J0YWxTdG9ja1RyYWJhamFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Stock/proveedores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xTdG9ja1xwcm92ZWVkb3Jlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Stock/solicitarMateria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xTdG9ja1xzb2xpY2l0YXJNYXRlcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Trabajador/admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xUcmFiYWphZG9yXGFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Trabajador/crearTrabajador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xUcmFiYWphZG9yXGNyZWFyVHJhYmFqYWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Trabajador/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xUcmFiYWphZG9yXGxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Trabajador/portalAdministrador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xUcmFiYWphZG9yXHBvcnRhbEFkbWluaXN0cmFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/DulceKapricho/Trabajador/portalTrabajador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVsY2VLYXByaWNob1xUcmFiYWphZG9yXHBvcnRhbFRyYWJhamFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Richart/Downloads/evaluacion2_PasteleriaDulceKapricho/evaluacion2_PasteleriaDulceKapricho/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wp1ppue62x

@@ -1,0 +1,114 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: #FFF7FA;
+}
+.contenedor {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.contenedor .header { 
+   background: rgba(0,0,0,1);
+   width: 100%;
+}
+
+.contenedor .header .nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 20px;
+}
+
+.contenedor .header .nav .logo a {
+   text-decoration: none;
+}
+
+.contenedor .header .nav .logo h1 {
+   text-align: center;
+   font-size: 25px;
+   color: #f1f1f1;
+}
+
+.contenedor .header .nav .list-items {
+   list-style: none;
+   display: flex;
+   align-items: center;
+}
+
+.contenedor .header .nav .list-items .element-item a {
+   margin: 0 20px;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 400;
+   color: #f1f1f1;
+   transition: 500ms;
+}
+
+.contenedor .header .nav .list-items .element-item a:hover {
+   color: #f1f1f1;
+   background-color: darkseagreen;
+   padding: 15px;
+}
+
+.contenedor .header .nav .redes a {
+   display: inline-block;
+   text-decoration: none;
+   font-size: 22px;
+   margin: 0 15px;
+   color: #f1f1f1;
+   transition: 300ms;
+}
+
+.contenedor .header .nav .redes a:hover {
+   color: #f1f1f1;
+   background-color: darkseagreen;
+   padding: 5px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opciones {
+    margin-top: 500px;
+    width: 20%;
+    height: 30%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 25px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f1f1f1;
+    transition: ease 300ms;
+}
+.a:hover{
+    transform: scale(1.1);
+}
+.main .opciones h1 {
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); 
+}
+.opciones img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}

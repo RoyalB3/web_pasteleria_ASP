@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "contacto";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dulce Kapricho</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div>
+                <h1 class="header__logo">Dulce Kapricho </h1>
+            </div>
+            <ul class="header__list-items">
+                <li><a class="header__element-item" href="/DulceKapricho/Index">Inicio</a></li>
+                <li><a class="header__element-item" href="/DulceKapricho/VerProductos">Productos</a></li>
+            </ul>
+            <div>
+                <a href="https://www.instagram.com/" class="header__redes"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/?locale=es_LA" class="header__redes"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.tiktok.com/foryou" class="header__redes"><i class='bx bxl-tiktok'></i></a>
+            </div>
+            <div class="sesion"><a href="/Login/Cerrar">Cerrar sesión</a></div>
+        </nav>
+    </header>
+    <main>
+        <form class="formulario" action="https://formsubmit.co/richard.sequera@alumnos.ipleones.cl" method="post">
+            <h1 class="titulo">Comunique su mensaje</h1>
+            <input class="formulario__campo" type="text" name="nombre" placeholder="Nombre" required />
+            <input class="formulario__campo" type="text" name="motivo" placeholder="motivo" required />
+            <input class="formulario__campo" type="email" name="correo" placeholder="correo" required />
+            <label for="message">Escriba aqui</label>
+            <textarea name="message" id="message" cols="50" rows="5" placeholder="Pedido" required></textarea>
+            <button type="submit" class="formulario__btn">Enviar</button>
+            <input type="hidden" name="_next" value="https://localhost:7031/DulceKapricho/Contacto">
+        </form>
+    </main>
+</body>
+</html>
+
